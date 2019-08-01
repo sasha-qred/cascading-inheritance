@@ -1,0 +1,43 @@
+{
+  "name": "cascading-inheritance",
+  "version": "0.1.0",
+  "publisher": "sasha-qred",
+  "bugs": {
+    "url": "https://github.com/sasha-qred/cascading-inheritance/issues"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Sasha Verbilo",
+    "email": "sashaqred@ya.ru",
+    "url": "https://github.com/sasha-qred/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sasha-qred/cascading-inheritance/"
+  },
+  "scripts": {
+    "pdf": "shower pdf",
+    "serve": "shower serve",
+    "archive": "shower archive",
+    "prepare": "shower prepare",
+    "publish": "shower publish",
+    "lint": "prettier --check \"**/*.*\"",
+    "lint:partial": "prettier --check"
+  },
+  "dependencies": {
+    "@shower/ribbon": "~3.2",
+    "shower-core": "~2.1"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "~8.1",
+    "@commitlint/config-conventional": "~8.1",
+    "@shower/cli": "~0.2",
+    "husky": "~3.0",
+    "lint-staged": "~9.2",
+    "prettier": "~1.18",
+    "stylelint": "~10.1",
+    "stylelint-config-idiomatic-order": "~7.0",
+    "stylelint-config-standard": "~18.3",
+    "stylelint-prettier": "~1.1"
+  }
+}
