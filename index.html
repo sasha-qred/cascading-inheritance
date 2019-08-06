@@ -12,6 +12,10 @@
       .shower {
         --slide-ratio: calc(16 / 9);
       }
+
+      .shout.small {
+        font-size: 75px;
+      }
     </style>
   </head>
   <body class="shower list">
@@ -19,6 +23,37 @@
       <h1>CSS Каскад и Наследование</h1>
       <a href="https://github.com/sasha-qred">Саша Вербило</a>
     </header>
+
+    <section class="slide clear">
+      <figure>
+        <img class="cover" src="./img/main.png" alt="@The_C_In_CSS twitter" />
+        <figcaption class="copyright right">
+          <a href="https://twitter.com/The_C_In_CSS">@The_C_In_CSS</a>
+        </figcaption>
+      </figure>
+    </section>
+
+    <section class="slide">
+      <h2 class="shout small">The "C" in CSS stands for "Cascade"</h2>
+    </section>
+
+    <section class="slide clear">
+      <img
+        class="cover"
+        src="./img/cascade.jpg"
+        alt="Каскад окон в Windows XP"
+      />
+    </section>
+
+    <section class="slide clear">
+      <h2>Что влияет на каскад</h2>
+      <ul>
+        <li>Происхождение (и важность)</li>
+        <li>Область видимости</li>
+        <li>Специфичность</li>
+        <li>Порядок объявления в коде</li>
+      </ul>
+    </section>
 
     <section class="slide">
       <h2>Ссылки</h2>
