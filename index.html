@@ -16,6 +16,13 @@
       .shout.small {
         font-size: 75px;
       }
+
+      .fit-img {
+        width: auto;
+        max-width: 100%;
+        height: auto;
+        max-height: 100%;
+      }
     </style>
   </head>
   <body class="shower list">
@@ -94,6 +101,35 @@
           Фактическое значение (actual value). Итог рендеринга.
         </li>
       </ul>
+    </section>
+
+    <section class="slide">
+      <h2>Свойство <code>all</code></h2>
+      <p>
+        Формально считается сокращением (shorthand) для всех остальных свойств
+        CSS.
+      </p>
+      <p>
+        За исключением кастомных свойств, а также (по историческим причинам)
+        свойств, отвечающих за направление текста —
+        <code>direction</code> и <code>unicode-bidi</code>.
+      </p>
+    </section>
+
+    <section class="slide">
+      <h2>Прекрасный CSS reset в одну строчку.</h2>
+      <figure>
+        <img
+          class="fit-img"
+          src="./img/all-caniuse.png"
+          alt="CSS all property on Can I Use"
+        />
+        <figcaption class="copyright right">
+          <a href="https://caniuse.com/#feat=css-all">
+            CSS all property on Can I Use
+          </a>
+        </figcaption>
+      </figure>
     </section>
 
     <section class="slide">
