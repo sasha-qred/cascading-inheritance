@@ -1,0 +1,10 @@
+/* User Agent Style */
+input {
+  font: 400 11px system-ui;
+}
+
+/* Developer Custom Style */
+
+* {
+  font-size: 19px;
+}
